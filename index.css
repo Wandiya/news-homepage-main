@@ -1,0 +1,59 @@
+*,
+*::afetr,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: hsl(35, 77%, 62%);
+    --red: hsl(5, 85%, 63%);
+    --white: hsl(36, 100%, 99%);
+    --gray-blue: hsl(233, 8%, 79%);
+    --dark-gray-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+    --ff-inter: "Inter", sans-serif;
+    --fs: 15px
+}
+
+html {
+    font-family: var(--ff-inter);
+    font-size: var(--fs);
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+button {
+    font: inherit;
+}
+
+p {
+    font-size: var(--fs);
+}
+
+ul {
+    list-style: none;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* container styles */
+
+.container {
+    min-width: 80vw;
+    margin: 1rem auto;
+}
+
+.container a {
+    text-decoration: none;
+    color: inherit;
+}
