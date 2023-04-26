@@ -1,27 +1,25 @@
-*,
-*::before,
-*::after {
-    padding: 0;
-    margin: 0;
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
-    /* primary color */
-    --soft-orange: hsl(35, 77%, 62%);
-    --soft-red: hsl(5, 85%, 63%);
-    /* Neutral color */
-    --off-white: hsl(36, 100%, 99%);
-    --grayish-blue: hsl(233, 8%, 79%);
-    --dark-grayish-blue: hsl(236, 13%, 42%);
-    --Very-dark-blue: hsl(240, 100%, 5%);
-    /* Typography */
-    --fs-paragraph: 15px;
-    --font-f-Inter: "Inter", sans-serif;
+    --orange: hsl(35, 77%, 62%);
+    --red: hsl(5, 85%, 63%);
+    --white: hsl(36, 100%, 99%);
+    --gray_blue: hsl(233, 8%, 79%);
+    --dark_gray_blue: hsl(236, 13%, 42%);
+    --dark_blue: hsl(240, 100%, 5%);
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
 
 body {
-    background-color: var(--off-white);
+    background-color: var(--white);
     display: flex;
     justify-content: center;
     width: 100%;
@@ -31,11 +29,6 @@ body {
 
 header {
     grid-area: header;
-}
-
-html {
-    font-size: var(--fs-paragraph);
-    font-family: var(--fs-paragraph);
 }
 
 .hero {
@@ -51,13 +44,212 @@ footer {
 }
 
 .container {
+    width: 100%;
+    height: fit-content;
+    overflow-x: hidden;
+    max-width: 1040px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: minmax(min-content, max-content);
     grid-template-areas: "header header header" "hero hero aside" "hero hero aside" "footer footer footer";
     gap: 25px;
-    height: fit-content;
+}
+
+header {
+    margin-top: 50px;
+}
+
+.navbar_mobile {
+    display: none;
+}
+
+.navbar_desktop {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 60px;
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark_gray_blue)
+}
+
+#menu a:hover {
+    color: var(--red)
+}
+
+img,
+picture {
+    display: block;
     width: 100%;
-    max-width: 1040px;
-    /* overflow-x: hidden; */
+}
+
+aside {
+    height: fit-content;
+    background-color: var(--veryDarkBlue);
+    width: 100%;
+}
+
+.hero_details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.hero_title {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.hero_text {
+    margin-top: 30px;
+}
+
+.hero_btn {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 15px 20px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    border: none;
+}
+
+.hero_btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+aside {
+    background-color: var(--dark_blue);
+    color: var(--gray_blue);
+    padding: 20px;
+}
+
+hr {
+    margin: 30px 5px;
+    color: var(--gray_blue);
+}
+
+aside h2 {
+    color: var(--orange);
+    font-size: 2.2rem;
+}
+
+aside a {
+    color: var(--white);
+}
+
+aside a:hover {
+    color: var(--orange);
+}
+
+aside h3 {
+    margin: 10px 0;
+}
+
+aside article {
+    margin: 20px 0;
+}
+
+aside>article>p {
+    line-height: 1.7rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+footer article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+}
+
+footer h2 {
+    color: var(--gray_blue);
+    font-size: 2.5rem;
+}
+
+footer a {
+    color: var(--dark_blue);
+}
+
+footer a:hover {
+    color: var(--red);
+}
+
+footer h3 {
+    margin: 10px 0;
+    font-weight: 800;
+}
+
+footer p {
+    line-height: 1.7rem;
+}
+
+@media only screen and (max-device-width: 720px) {
+    .navbar_desktop {
+        display: none;
+    }
+    header {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .logo {
+        width: 20%;
+    }
+    .navbar_mobile {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.25rem;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        max-width: 400px;
+    }
+    .hero_details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_text {
+        margin-top: 0px;
+    }
+    .hero_btn {
+        margin-top: 25px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
