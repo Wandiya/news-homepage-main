@@ -73,12 +73,10 @@ header {
     display: none;
 }
 
-.nav_desktop {
-    position: relative;
+.collapse navbar-collapse li {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1.25rem;
+    align-items: flex-end;
+    justify-content: right;
 }
 
 .menu {
@@ -104,7 +102,7 @@ a {
     color: var(--soft-red)
 }
 
-img,
+.web-3,
 picture {
     display: block;
     width: 100%;
