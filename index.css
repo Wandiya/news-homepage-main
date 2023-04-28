@@ -73,11 +73,12 @@ header {
     display: none;
 }
 
-.collapse navbar-collapse li {
+
+/* .collapse navbar-collapse li {
     display: flex;
     align-items: flex-end;
     justify-content: right;
-}
+} */
 
 .menu {
     display: flex;
@@ -122,6 +123,41 @@ picture {
 
 .main-blog {
     margin-top: 30px;
+}
+
+
+/* Mobile styles */
+
+
+/* Navbar */
+
+.navbar {
+    padding-block: 1.8rem;
+}
+
+.navbar-toggler {
+    border-radius: 0;
+    border: 2px solid var(--very-dark-blue);
+    padding: .2rem .15rem;
+}
+
+.navbar-collapse {
+    background: var(--off-white);
+    flex-grow: 0;
+}
+
+.bg-body-tertiary {
+    background: var(--off-white);
+    color: var(--off-white);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: var(--ff);
+    font-size: var(--fs-paragraph);
+}
+
+.nav-link:hover {
+    color: var(--soft-red);
 }
 
 
