@@ -135,10 +135,19 @@ picture {
     padding-block: 1.8rem;
 }
 
+li {
+    padding: 12px;
+}
+
 .navbar-toggler {
     border-radius: 0;
-    border: 2px solid var(--very-dark-blue);
+    border: 0px solid var(--very-dark-blue);
     padding: .2rem .15rem;
+}
+
+.navbar-toggler-icon {
+    width: 3rem;
+    /* vertical-align: bottom; */
 }
 
 .navbar-collapse {
@@ -245,8 +254,8 @@ footer {
 
 footer article {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 25px;
+    grid-template-columns: 1fr 3fr;
+    gap: 1.56rem;
 }
 
 footer h2 {
@@ -265,6 +274,7 @@ footer a:hover {
 footer h3 {
     margin: .6rem 0;
     font-weight: 800;
+    /* padding-inline: 1rem; */
 }
 
 footer p {
@@ -321,6 +331,7 @@ footer p {
     }
     .read-more-btn {
         margin-top: 1.6rem;
+        text-transform: uppercase;
     }
     footer {
         display: flex;
