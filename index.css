@@ -56,7 +56,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: minmax(min-content, max-content);
-    grid-template-areas: "header header header" "main main aside" "main main aside" "footer footer footer";
+    grid-template-areas: "header    header  header" "main     main    aside" "main     main    aside" "footer   footer  footer";
     gap: 25px;
 }
 
