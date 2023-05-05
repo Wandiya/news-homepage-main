@@ -46,10 +46,10 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Bootstrap 
+- Boostrap(https://getbootstrap.com/)
 
 ### What I learned
-How to use grid layout
+I lean how  to use some grid layouts
 
  
 
@@ -61,11 +61,12 @@ media queries
 ### Useful resources
 
 - [frontend mentors](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Youtube tutorials](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
 - Frontend Mentor - [@Wandiya](https://www.frontendmentor.io/profile/@Wandiya)
 - Twitter - [@WandiyaJames](https://www.twitter.com/yourusername)
 
-
- 
+## Acknowledgement
+ I James Wandiya acknowledge that this work has been implemented through hardwork and dedication. I am deeply indebted to Mr King Praise, My  Instructor(Mr Iodiong Joseph), Frontend Mentor and fellow colleagues at Nhub Nigeria.
