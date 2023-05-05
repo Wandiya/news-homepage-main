@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://wandiya.github.io/news-homepage-main/)
-- Live Site URL: [](https://wandiya.github.io/news-homepage-main/)
+- Solution URL: [https://wandiya.github.io/news-homepage-main/]()
+- Live Site URL: [https://wandiya.github.io/news-homepage-main/]()
 
 ## My process
 
