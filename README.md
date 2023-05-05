@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://github.com/Wandiya/news-homepage-main](https://your-solution-url.com)
+- Solution URL: [https://wandiya.github.io/news-homepage-main/](https://your-solution-url.com)
 - Live Site URL: [https://wandiya.github.io/news-homepage-main/](https://your-live-site-url.com)
 
 ## My process
@@ -54,11 +54,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Bootstrap 
 
 ### What I learned
 
@@ -102,7 +98,7 @@ Learn more about JavaScript and typeScript
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@Wandiya](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Wandiya](https://www.frontendmentor.io/profile/@Wandiya)
 - Twitter - [@WandiyaJames](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**

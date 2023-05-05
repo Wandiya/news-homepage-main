@@ -222,16 +222,6 @@ aside article {
     margin: 20px 0;
 }
 
-
-/* aside .article-sections>p:nth-child(even) {
-    border-bottom: 1px solid var(--off-white);
-} */
-
-
-/* aside.article-sections.border-btm>p {
-    border-bottom: 1px solid var(--off-white);
-} */
-
 aside>article>p {
     line-height: 1.7rem;
 }
