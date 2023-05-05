@@ -65,8 +65,8 @@ media queries
 
 ## Author
 
-- Frontend Mentor - [@Wandiya](https://www.frontendmentor.io/profile/@Wandiya)
-- Twitter - [@WandiyaJames](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Wandiya](https://www.frontendmentor.io/home)
+- Twitter - [@WandiyaJames](https://twitter.com/home)
 
 ## Acknowledgement
  I James Wandiya acknowledge that this work has been implemented through hardwork and dedication. I am deeply indebted to Mr King Praise, My  Instructor(Mr Iodiong Joseph), Frontend Mentor and fellow colleagues at Nhub Nigeria.
